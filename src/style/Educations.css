@@ -1,0 +1,37 @@
+.educations {
+  background-color: rgb(245, 245, 245);
+  text-align: left;
+}
+
+.educationWrapper {
+  background-color: rgb(253, 253, 253);
+  padding: 25px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  word-break: break-word;
+}
+
+.educations h2 {
+  background-color: rgb(253, 253, 253);
+  margin-bottom: 0;
+}
+
+.educations p {
+  margin-bottom: 5px;
+}
+
+.educations button {
+  background-color: rgb(253, 253, 253);
+  border: 1px solid rgb(58, 58, 58);
+  color: rgb(208, 122, 42);
+}
+
+.educations button:hover {
+  background-color: rgb(87, 87, 87);
+  border: 1px solid rgb(58, 58, 58);
+  color: rgb(253, 253, 253);
+}
+
+.readMore {
+  margin: 20px 0 20px 0;
+}

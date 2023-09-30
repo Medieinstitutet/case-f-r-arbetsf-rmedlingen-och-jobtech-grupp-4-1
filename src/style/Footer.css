@@ -1,0 +1,23 @@
+.footer {
+    margin-top: 20px;
+    padding: 25px 0 15px 0;
+    background: darkorange;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer p {
+    text-align: center;
+    color: rgb(240, 240, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.footer span {
+    font-size: 0.7rem;
+    font-weight: lighter;
+}

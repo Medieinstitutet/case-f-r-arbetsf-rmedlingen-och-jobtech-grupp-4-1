@@ -1,0 +1,31 @@
+.competencies {
+  background-color: rgb(253 253 253) !important;
+  padding: 20px;
+  margin: 25px 0 20px 0;
+  border-left: 10px solid darkorange;
+}
+
+.competencies ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.competencies li {
+  padding-left: 5px;
+  text-align: left;
+  color: rgb(208, 122, 42);
+}
+
+.competencies span {
+  color: rgb(0, 0, 0);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .competencies ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+}

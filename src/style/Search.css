@@ -1,0 +1,83 @@
+.searchWrapper {
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  top: 134px;
+  left: 0px;
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.expandableDiv {
+  --digi--expandable-accordion--border-bottom-color: rgb(208, 122, 42);
+  border-bottom-color: var(--digi--expandable-accordion--border-bottom-color);
+}
+
+.searchInput {
+  background-color: rgb(221, 221, 221);
+  margin: 50px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .searchInput {
+    width: 90%;
+    margin: 30px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .searchInput {
+    min-width: 590px;
+    margin: 30px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .searchInput {
+    min-width: 748px;
+    margin: 30px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .searchInput {
+    min-width: 972px;
+  }
+}
+
+.searchResultWrapper {
+  margin-top: 350px;
+  margin-bottom: 150px;
+  z-index: 50;
+  text-align: -webkit-center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.expandableContent {
+  padding: 5px;
+}
+
+.digi-expandable-accordion {
+  width: 90vw;
+}
+
+.digi-expandable-accordion__header
+.sc-digi-expandable-accordiondigi-expandable-accordion__header
+.sc-digi-expandable-accordion {
+  border: 1px solid darkorange !important;
+}
+
+.error-message {
+  margin-top: 350px;
+}
